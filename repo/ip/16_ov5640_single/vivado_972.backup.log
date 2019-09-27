@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jul 21 21:10:38 2019
+# Process ID: 972
+# Current directory: D:/xilinx_projects/16_ov5640_single - 副本
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15408 D:\xilinx_projects\16_ov5640_single - 副本\ov5640_single.xpr
+# Log file: D:/xilinx_projects/16_ov5640_single - 副本/vivado.log
+# Journal file: D:/xilinx_projects/16_ov5640_single - 副本\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/xilinx_projects/16_ov5640_single - 副本/ov5640_single.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/xilinx_projects/16_ov5640_single' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/xilinx_projects/16_ov5640_single - 副本/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/xilinx/Vivado/2018.3/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:hls_core_1:1.0'. The one found in IP location 'd:/xilinx_projects/16_ov5640_single - 副本/repo/ip/xilinx_com_hls_hls_core_1_1_0' will take precedence over the same IP in location d:/xilinx_projects/16_ov5640_single - 副本/repo/xilinx_com_hls_hls_core_1_1_0
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 838.340 ; gain = 228.926
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 21 21:11:37 2019...

@@ -1,0 +1,1412 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Sep  4 10:51:46 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv4_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_conv4_0_0 (xilinx.com:hls:conv4:1.0) from (Rev. 1908191600) to (Rev. 1909041013)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_conv4_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 10 differs from original width 6
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 10 differs from original width 6
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Sep  4 10:51:46 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv3_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_conv3_0_0 (xilinx.com:hls:conv3:1.0) from (Rev. 1908191600) to (Rev. 1909041013)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_conv3_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 10 differs from original width 6
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 10 differs from original width 6
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Sep  4 10:51:46 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_conv2_0_0 (xilinx.com:hls:conv2:1.0) from (Rev. 1908191600) to (Rev. 1909041013)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_conv2_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 9 differs from original width 6
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 9 differs from original width 6
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Sep  4 10:51:46 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv1_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_conv1_0_0 (xilinx.com:hls:conv1:1.0) from (Rev. 1908191600) to (Rev. 1909041013)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_conv1_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 8 differs from original width 6
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 8 differs from original width 6
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Aug 20 11:12:31 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1908201043) to (Rev. 1908201111)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Aug 20 10:44:53 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1908201011) to (Rev. 1908201043)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Aug 20 10:12:39 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251709) to (Rev. 1908201011)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Aug 19 16:01:54 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv4_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv4_0_0 (xilinx.com:hls:conv4:1.0) from (Rev. 1908161704) to (Rev. 1908191600)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Aug 19 16:01:54 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv3_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv3_0_0 (xilinx.com:hls:conv3:1.0) from (Rev. 1908161704) to (Rev. 1908191600)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Aug 19 16:01:54 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv2_0_0 (xilinx.com:hls:conv2:1.0) from (Rev. 1908161704) to (Rev. 1908191600)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Aug 19 16:01:54 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv1_0_0 (xilinx.com:hls:conv1:1.0) from (Rev. 1908161704) to (Rev. 1908191600)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 17:05:48 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv4_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv4_0_0 (xilinx.com:hls:conv4:1.0) from (Rev. 1908161554) to (Rev. 1908161704)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 17:05:48 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv3_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv3_0_0 (xilinx.com:hls:conv3:1.0) from (Rev. 1908161554) to (Rev. 1908161704)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 17:05:48 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv2_0_0 (xilinx.com:hls:conv2:1.0) from (Rev. 1908161553) to (Rev. 1908161704)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 17:05:48 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv1_0_0 (xilinx.com:hls:conv1:1.0) from (Rev. 1908161625) to (Rev. 1908161704)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 16:25:51 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv1_0_0 (xilinx.com:hls:conv1:1.0) from (Rev. 1908161553) to (Rev. 1908161625)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 15:55:08 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv4_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv4_0_0 (xilinx.com:hls:conv4:1.0) from (Rev. 1908151022) to (Rev. 1908161554)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 15:55:08 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv3_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv3_0_0 (xilinx.com:hls:conv3:1.0) from (Rev. 1908151022) to (Rev. 1908161554)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 15:55:08 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv2_0_0 (xilinx.com:hls:conv2:1.0) from (Rev. 1908151022) to (Rev. 1908161553)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Aug 16 15:55:08 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_conv1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_conv1_0_0 (xilinx.com:hls:conv1:1.0) from (Rev. 1908151022) to (Rev. 1908161553)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Aug 14 17:20:56 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1908141634) to (Rev. 1908141720)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Aug 14 16:35:34 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1908141606) to (Rev. 1908141634)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Aug 14 16:06:59 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1908141540) to (Rev. 1908141606)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Aug 14 15:40:53 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907291354) to (Rev. 1908141540)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_hls_core_1_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 6 differs from original width 7
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 6 differs from original width 7
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 29 13:55:04 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907251652) to (Rev. 1907291354)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 17:09:41 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251642) to (Rev. 1907251709)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 16:56:50 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907251559) to (Rev. 1907251652)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 16:43:30 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251546) to (Rev. 1907251642)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 16:01:19 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907222123) to (Rev. 1907251559)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_hls_core_1_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 7 differs from original width 6
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 7 differs from original width 6
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 15:50:16 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251526) to (Rev. 1907251546)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 15:27:02 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251454) to (Rev. 1907251526)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 14:55:14 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251043) to (Rev. 1907251454)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 10:44:15 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251026) to (Rev. 1907251043)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 10:27:13 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907251009) to (Rev. 1907251026)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 10:09:45 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907242055) to (Rev. 1907251009)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Jul 24 20:56:28 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907242035) to (Rev. 1907242055)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Jul 24 20:36:00 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_small_pic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_small_pic_0_0 (xilinx.com:hls:small_pic:1.0) from (Rev. 1907242013) to (Rev. 1907242035)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 21:24:52 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907222029) to (Rev. 1907222123)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 20:30:41 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907222002) to (Rev. 1907222029)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 20:04:42 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907221945) to (Rev. 1907222002)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 19:47:39 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907221926) to (Rev. 1907221945)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 19:27:47 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907221127) to (Rev. 1907221926)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 11:28:14 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907221006) to (Rev. 1907221127)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_hls_core_1_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 6 differs from original width 7
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 6 differs from original width 7
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 10:09:10 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907220917) to (Rev. 1907221006)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_hls_core_1_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's_axi_AXILiteS_ARADDR' width 7 differs from original width 6
+
+-Upgraded port 's_axi_AXILiteS_AWADDR' width 7 differs from original width 6
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 09:18:08 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907220812) to (Rev. 1907220917)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 22 08:20:54 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907212222) to (Rev. 1907220812)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Jul 21 22:23:29 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907212208) to (Rev. 1907212222)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Jul 21 22:08:46 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907212149) to (Rev. 1907212208)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Jul 21 21:51:21 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907212125) to (Rev. 1907212149)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Jul 21 21:26:15 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_hls_core_1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_hls_core_1_0_0 (xilinx.com:hls:hls_core_1:1.0) from (Rev. 1907211234) to (Rev. 1907212125)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 3) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_v_tc_0_0 (xilinx.com:ip:v_tc:6.1) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 8) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'system_v_axi4s_vid_out_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'fifo_read_level'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_processing_system7_0_150M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_rst_processing_system7_0_150M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_processing_system7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_rst_processing_system7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 16) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axis_subset_converter_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axis_subset_converter_0_1 (xilinx.com:ip:axis_subset_converter:1.1) from (Rev. 15) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_vdma_1_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 3) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 3) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 16) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 17) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jul 20 13:56:26 2019
+| Host         : DESKTOP-OEA53QH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_alinx_ov5640_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of system_alinx_ov5640_0_0 (www.alinx.com.cn:user:alinx_ov5640:5.4 (Rev. 1)) to Vivado generation flows.
+

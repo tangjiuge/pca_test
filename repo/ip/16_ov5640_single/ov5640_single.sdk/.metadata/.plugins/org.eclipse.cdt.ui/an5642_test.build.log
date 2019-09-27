@@ -1,0 +1,156 @@
+11:16:22 **** Auto Build of configuration Debug for project an5642_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/tyb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tyb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../an5642_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tyb.d" -MT"src/tyb.o" -o "src/tyb.o" "../src/tyb.c"
+In file included from ../src/tyb.h:42:0,
+                 from ../src/tyb.c:9:
+../../an5642_test_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/tyb.c:229:33: warning: missing braces around initializer [-Wmissing-braces]
+ float conv1_result[6][119][119]={0.0};
+                                 ^
+                                  {
+                                  {  }
+                                     }
+../src/tyb.c:230:31: warning: missing braces around initializer [-Wmissing-braces]
+ float conv2_result[6][58][58]={0.0};
+                               ^
+                                {
+                                {  }
+                                   }
+../src/tyb.c:231:31: warning: missing braces around initializer [-Wmissing-braces]
+ float conv3_result[8][56][56]={0.0};
+                               ^
+                                {
+                                {  }
+                                   }
+../src/tyb.c:232:32: warning: missing braces around initializer [-Wmissing-braces]
+ float conv4_result[10][54][54]={0.0};
+                                ^
+                                 {
+                                 {  }
+                                    }
+../src/tyb.c: In function 'hls_core_1_Exception':
+../src/tyb.c:282:8: warning: variable 'average' set but not used [-Wunused-but-set-variable]
+  float average;
+        ^~~~~~~
+../src/tyb.c: In function 'conv1_Exception':
+../src/tyb.c:327:7: warning: unused variable 'cout' [-Wunused-variable]
+   int cout=6;
+       ^~~~
+../src/tyb.c:326:7: warning: unused variable 'wh' [-Wunused-variable]
+   int wh=13;
+       ^~
+../src/tyb.c:325:9: warning: unused variable 'j' [-Wunused-variable]
+   int i,j=0;
+         ^
+../src/tyb.c:325:7: warning: unused variable 'i' [-Wunused-variable]
+   int i,j=0;
+       ^
+../src/tyb.c:323:9: warning: variable 'average' set but not used [-Wunused-but-set-variable]
+   float average;
+         ^~~~~~~
+../src/tyb.c: In function 'conv2_Exception':
+../src/tyb.c:357:37: warning: passing argument 1 of 'XConv1_InterruptGetStatus' from incompatible pointer type [-Wincompatible-pointer-types]
+   state = XConv1_InterruptGetStatus(pXAverageInstance);
+                                     ^~~~~~~~~~~~~~~~~
+In file included from ../src/tyb.h:32:0,
+                 from ../src/tyb.c:9:
+../../an5642_test_bsp/ps7_cortexa9_0/include/xconv1.h:106:5: note: expected 'XConv1 * {aka struct <anonymous> *}' but argument is of type 'XConv2 * {aka struct <anonymous> *}'
+ u32 XConv1_InterruptGetStatus(XConv1 *InstancePtr);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/tyb.c:356:7: warning: unused variable 'cout' [-Wunused-variable]
+   int cout=6;
+       ^~~~
+../src/tyb.c:355:7: warning: unused variable 'wh' [-Wunused-variable]
+   int wh=11;
+       ^~
+../src/tyb.c:354:9: warning: unused variable 'j' [-Wunused-variable]
+   int i,j=0;
+         ^
+../src/tyb.c:354:7: warning: unused variable 'i' [-Wunused-variable]
+   int i,j=0;
+       ^
+../src/tyb.c:352:9: warning: variable 'average' set but not used [-Wunused-but-set-variable]
+   float average;
+         ^~~~~~~
+../src/tyb.c: In function 'conv3_Exception':
+../src/tyb.c:381:7: warning: unused variable 'cout' [-Wunused-variable]
+   int cout=6;
+       ^~~~
+../src/tyb.c:380:7: warning: unused variable 'wh' [-Wunused-variable]
+   int wh=13;
+       ^~
+../src/tyb.c:379:9: warning: unused variable 'j' [-Wunused-variable]
+   int i,j=0;
+         ^
+../src/tyb.c:379:7: warning: unused variable 'i' [-Wunused-variable]
+   int i,j=0;
+       ^
+../src/tyb.c:377:9: warning: variable 'average' set but not used [-Wunused-but-set-variable]
+   float average;
+         ^~~~~~~
+../src/tyb.c: In function 'conv4_Exception':
+../src/tyb.c:405:7: warning: unused variable 'cout' [-Wunused-variable]
+   int cout=3;
+       ^~~~
+../src/tyb.c:404:7: warning: unused variable 'wh' [-Wunused-variable]
+   int wh=7;
+       ^~
+../src/tyb.c:403:9: warning: unused variable 'j' [-Wunused-variable]
+   int i,j=0;
+         ^
+../src/tyb.c:403:7: warning: unused variable 'i' [-Wunused-variable]
+   int i,j=0;
+       ^
+../src/tyb.c:401:9: warning: variable 'average' set but not used [-Wunused-but-set-variable]
+   float average;
+         ^~~~~~~
+../src/tyb.c: In function 'tyb_display':
+../src/tyb.c:463:6: warning: variable 'real_w_h' set but not used [-Wunused-but-set-variable]
+  int real_w_h;
+      ^~~~~~~~
+../src/tyb.c: In function 'tyb_display2':
+../src/tyb.c:480:12: warning: unused variable 'o' [-Wunused-variable]
+  int i,j,p,o=0;
+            ^
+../src/tyb.c:480:10: warning: unused variable 'p' [-Wunused-variable]
+  int i,j,p,o=0;
+          ^
+../src/tyb.c: In function 'tyb_display3':
+../src/tyb.c:495:12: warning: unused variable 'o' [-Wunused-variable]
+  int i,j,p,o=0;
+            ^
+../src/tyb.c:495:10: warning: unused variable 'p' [-Wunused-variable]
+  int i,j,p,o=0;
+          ^
+../src/tyb.c: In function 'rgb2grey':
+../src/tyb.c:516:5: warning: unused variable 'count' [-Wunused-variable]
+ int count=0;
+     ^~~~~
+../src/tyb.c:513:12: warning: unused variable 'o' [-Wunused-variable]
+  int i,j,p,o=0;
+            ^
+../src/tyb.c:513:10: warning: unused variable 'p' [-Wunused-variable]
+  int i,j,p,o=0;
+          ^
+'Finished building: ../src/tyb.c'
+' '
+'Building target: an5642_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../an5642_test_bsp/ps7_cortexa9_0/lib -o "an5642_test.elf"  ./src/i2c/PS_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/ov5640.o ./src/tyb.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: an5642_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size an5642_test.elf  |tee "an5642_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 135724	  26496	38378240	38540460	24c14ac	an5642_test.elf
+'Finished building: an5642_test.elf.size'
+' '
+
+11:16:23 Build Finished (took 759ms)
+

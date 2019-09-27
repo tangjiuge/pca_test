@@ -1,0 +1,50 @@
+16:26:12 **** Auto Build of configuration Debug for project an5642_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../an5642_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+In file included from ../src/tyb.h:42:0,
+                 from ../src/display_demo.c:13:
+../../an5642_test_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:125:65: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_AXIVDMA_1_DEVICE_ID,1280 * 3,720,1280 * 3,pFrames[0]);
+                                                                 ^~~~~~~
+In file included from ../src/tyb.h:25:0,
+                 from ../src/display_demo.c:13:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:246:17: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+      printf("%.1f ",1);
+              ~~~^
+              %.1d
+../src/display_demo.c:56:28: warning: unused variable 'pixel_index' [-Wunused-variable]
+  int step_img_x,step_img_y,pixel_index;
+                            ^~~~~~~~~~~
+../src/display_demo.c:56:17: warning: unused variable 'step_img_y' [-Wunused-variable]
+  int step_img_x,step_img_y,pixel_index;
+                 ^~~~~~~~~~
+../src/display_demo.c:56:6: warning: unused variable 'step_img_x' [-Wunused-variable]
+  int step_img_x,step_img_y,pixel_index;
+      ^~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: an5642_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../an5642_test_bsp/ps7_cortexa9_0/lib -o "an5642_test.elf"  ./src/i2c/PS_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/ov5640.o ./src/tyb.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: an5642_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size an5642_test.elf  |tee "an5642_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 135676	  26496	38378240	38540412	24c147c	an5642_test.elf
+'Finished building: an5642_test.elf.size'
+' '
+
+16:26:13 Build Finished (took 1s.195ms)
+

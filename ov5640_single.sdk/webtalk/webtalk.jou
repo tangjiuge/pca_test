@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Wed Aug 21 10:34:45 2019
+# Process ID: 8836
+# Current directory: D:/xilinx_projects/16_ov5640_single/ov5640_single.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/xilinx_projects/16_ov5640_single/ov5640_single.sdk/webtalk/webtalk.log
+# Journal file: D:/xilinx_projects/16_ov5640_single/ov5640_single.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

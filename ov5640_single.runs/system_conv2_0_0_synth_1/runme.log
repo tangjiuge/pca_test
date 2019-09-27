@@ -1,0 +1,1341 @@
+
+*** Running vivado
+    with args -log system_conv2_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_conv2_0_0.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source system_conv2_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/xilinx_projects/16_ov5640_single/repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/xilinx_projects/16_ov5640_single/repo/ip'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top system_conv2_0_0 -part xc7z020clg400-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6924 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 405.156 ; gain = 106.074
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_conv2_0_0' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ip/system_conv2_0_0/synth/system_conv2_0_0.v:59]
+INFO: [Synth 8-6157] synthesizing module 'conv2' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:12]
+	Parameter ap_ST_fsm_state1 bound to: 23'b00000000000000000000001 
+	Parameter ap_ST_fsm_state2 bound to: 23'b00000000000000000000010 
+	Parameter ap_ST_fsm_state3 bound to: 23'b00000000000000000000100 
+	Parameter ap_ST_fsm_state4 bound to: 23'b00000000000000000001000 
+	Parameter ap_ST_fsm_state5 bound to: 23'b00000000000000000010000 
+	Parameter ap_ST_fsm_state6 bound to: 23'b00000000000000000100000 
+	Parameter ap_ST_fsm_state7 bound to: 23'b00000000000000001000000 
+	Parameter ap_ST_fsm_state8 bound to: 23'b00000000000000010000000 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 23'b00000000000000100000000 
+	Parameter ap_ST_fsm_state12 bound to: 23'b00000000000001000000000 
+	Parameter ap_ST_fsm_pp1_stage0 bound to: 23'b00000000000010000000000 
+	Parameter ap_ST_fsm_pp1_stage1 bound to: 23'b00000000000100000000000 
+	Parameter ap_ST_fsm_pp1_stage2 bound to: 23'b00000000001000000000000 
+	Parameter ap_ST_fsm_pp1_stage3 bound to: 23'b00000000010000000000000 
+	Parameter ap_ST_fsm_pp1_stage4 bound to: 23'b00000000100000000000000 
+	Parameter ap_ST_fsm_pp1_stage5 bound to: 23'b00000001000000000000000 
+	Parameter ap_ST_fsm_pp1_stage6 bound to: 23'b00000010000000000000000 
+	Parameter ap_ST_fsm_pp1_stage7 bound to: 23'b00000100000000000000000 
+	Parameter ap_ST_fsm_pp1_stage8 bound to: 23'b00001000000000000000000 
+	Parameter ap_ST_fsm_pp1_stage9 bound to: 23'b00010000000000000000000 
+	Parameter ap_ST_fsm_pp1_stage10 bound to: 23'b00100000000000000000000 
+	Parameter ap_ST_fsm_pp1_stage11 bound to: 23'b01000000000000000000000 
+	Parameter ap_ST_fsm_state268 bound to: 23'b10000000000000000000000 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_GMEM_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_GMEM_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_GMEM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_GMEM_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_GMEM_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_GMEM_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_GMEM_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_GMEM_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_GMEM_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_M_AXI_GMEM_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_M_AXI_GMEM_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_AXILITES_WSTRB_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
+	Parameter C_M_AXI_GMEM_WSTRB_WIDTH bound to: 4 - type: integer 
+	Parameter C_M_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:194]
+INFO: [Synth 8-6157] synthesizing module 'conv2_AXILiteS_s_axi' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_AXILiteS_s_axi.v:9]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_AP_CTRL bound to: 9'b000000000 
+	Parameter ADDR_GIE bound to: 9'b000000100 
+	Parameter ADDR_IER bound to: 9'b000001000 
+	Parameter ADDR_ISR bound to: 9'b000001100 
+	Parameter ADDR_AP_RETURN_0 bound to: 9'b000010000 
+	Parameter ADDR_FEATURE_SRC_0_DATA_0 bound to: 9'b000011000 
+	Parameter ADDR_FEATURE_SRC_0_CTRL bound to: 9'b000011100 
+	Parameter ADDR_FEATURE_SRC_1_DATA_0 bound to: 9'b000100000 
+	Parameter ADDR_FEATURE_SRC_1_CTRL bound to: 9'b000100100 
+	Parameter ADDR_FEATURE_SRC_2_DATA_0 bound to: 9'b000101000 
+	Parameter ADDR_FEATURE_SRC_2_CTRL bound to: 9'b000101100 
+	Parameter ADDR_FEATURE_SRC_3_DATA_0 bound to: 9'b000110000 
+	Parameter ADDR_FEATURE_SRC_3_CTRL bound to: 9'b000110100 
+	Parameter ADDR_FEATURE_SRC_4_DATA_0 bound to: 9'b000111000 
+	Parameter ADDR_FEATURE_SRC_4_CTRL bound to: 9'b000111100 
+	Parameter ADDR_FEATURE_SRC_5_DATA_0 bound to: 9'b001000000 
+	Parameter ADDR_FEATURE_SRC_5_CTRL bound to: 9'b001000100 
+	Parameter ADDR_WEIGHT_SRC_0_0_DATA_0 bound to: 9'b001001000 
+	Parameter ADDR_WEIGHT_SRC_0_0_CTRL bound to: 9'b001001100 
+	Parameter ADDR_WEIGHT_SRC_0_1_DATA_0 bound to: 9'b001010000 
+	Parameter ADDR_WEIGHT_SRC_0_1_CTRL bound to: 9'b001010100 
+	Parameter ADDR_WEIGHT_SRC_0_2_DATA_0 bound to: 9'b001011000 
+	Parameter ADDR_WEIGHT_SRC_0_2_CTRL bound to: 9'b001011100 
+	Parameter ADDR_WEIGHT_SRC_0_3_DATA_0 bound to: 9'b001100000 
+	Parameter ADDR_WEIGHT_SRC_0_3_CTRL bound to: 9'b001100100 
+	Parameter ADDR_WEIGHT_SRC_0_4_DATA_0 bound to: 9'b001101000 
+	Parameter ADDR_WEIGHT_SRC_0_4_CTRL bound to: 9'b001101100 
+	Parameter ADDR_WEIGHT_SRC_0_5_DATA_0 bound to: 9'b001110000 
+	Parameter ADDR_WEIGHT_SRC_0_5_CTRL bound to: 9'b001110100 
+	Parameter ADDR_WEIGHT_SRC_1_0_DATA_0 bound to: 9'b001111000 
+	Parameter ADDR_WEIGHT_SRC_1_0_CTRL bound to: 9'b001111100 
+	Parameter ADDR_WEIGHT_SRC_1_1_DATA_0 bound to: 9'b010000000 
+	Parameter ADDR_WEIGHT_SRC_1_1_CTRL bound to: 9'b010000100 
+	Parameter ADDR_WEIGHT_SRC_1_2_DATA_0 bound to: 9'b010001000 
+	Parameter ADDR_WEIGHT_SRC_1_2_CTRL bound to: 9'b010001100 
+	Parameter ADDR_WEIGHT_SRC_1_3_DATA_0 bound to: 9'b010010000 
+	Parameter ADDR_WEIGHT_SRC_1_3_CTRL bound to: 9'b010010100 
+	Parameter ADDR_WEIGHT_SRC_1_4_DATA_0 bound to: 9'b010011000 
+	Parameter ADDR_WEIGHT_SRC_1_4_CTRL bound to: 9'b010011100 
+	Parameter ADDR_WEIGHT_SRC_1_5_DATA_0 bound to: 9'b010100000 
+	Parameter ADDR_WEIGHT_SRC_1_5_CTRL bound to: 9'b010100100 
+	Parameter ADDR_WEIGHT_SRC_2_0_DATA_0 bound to: 9'b010101000 
+	Parameter ADDR_WEIGHT_SRC_2_0_CTRL bound to: 9'b010101100 
+	Parameter ADDR_WEIGHT_SRC_2_1_DATA_0 bound to: 9'b010110000 
+	Parameter ADDR_WEIGHT_SRC_2_1_CTRL bound to: 9'b010110100 
+	Parameter ADDR_WEIGHT_SRC_2_2_DATA_0 bound to: 9'b010111000 
+	Parameter ADDR_WEIGHT_SRC_2_2_CTRL bound to: 9'b010111100 
+	Parameter ADDR_WEIGHT_SRC_2_3_DATA_0 bound to: 9'b011000000 
+	Parameter ADDR_WEIGHT_SRC_2_3_CTRL bound to: 9'b011000100 
+	Parameter ADDR_WEIGHT_SRC_2_4_DATA_0 bound to: 9'b011001000 
+	Parameter ADDR_WEIGHT_SRC_2_4_CTRL bound to: 9'b011001100 
+	Parameter ADDR_WEIGHT_SRC_2_5_DATA_0 bound to: 9'b011010000 
+	Parameter ADDR_WEIGHT_SRC_2_5_CTRL bound to: 9'b011010100 
+	Parameter ADDR_WEIGHT_SRC_3_0_DATA_0 bound to: 9'b011011000 
+	Parameter ADDR_WEIGHT_SRC_3_0_CTRL bound to: 9'b011011100 
+	Parameter ADDR_WEIGHT_SRC_3_1_DATA_0 bound to: 9'b011100000 
+	Parameter ADDR_WEIGHT_SRC_3_1_CTRL bound to: 9'b011100100 
+	Parameter ADDR_WEIGHT_SRC_3_2_DATA_0 bound to: 9'b011101000 
+	Parameter ADDR_WEIGHT_SRC_3_2_CTRL bound to: 9'b011101100 
+	Parameter ADDR_WEIGHT_SRC_3_3_DATA_0 bound to: 9'b011110000 
+	Parameter ADDR_WEIGHT_SRC_3_3_CTRL bound to: 9'b011110100 
+	Parameter ADDR_WEIGHT_SRC_3_4_DATA_0 bound to: 9'b011111000 
+	Parameter ADDR_WEIGHT_SRC_3_4_CTRL bound to: 9'b011111100 
+	Parameter ADDR_WEIGHT_SRC_3_5_DATA_0 bound to: 9'b100000000 
+	Parameter ADDR_WEIGHT_SRC_3_5_CTRL bound to: 9'b100000100 
+	Parameter ADDR_WEIGHT_SRC_4_0_DATA_0 bound to: 9'b100001000 
+	Parameter ADDR_WEIGHT_SRC_4_0_CTRL bound to: 9'b100001100 
+	Parameter ADDR_WEIGHT_SRC_4_1_DATA_0 bound to: 9'b100010000 
+	Parameter ADDR_WEIGHT_SRC_4_1_CTRL bound to: 9'b100010100 
+	Parameter ADDR_WEIGHT_SRC_4_2_DATA_0 bound to: 9'b100011000 
+	Parameter ADDR_WEIGHT_SRC_4_2_CTRL bound to: 9'b100011100 
+	Parameter ADDR_WEIGHT_SRC_4_3_DATA_0 bound to: 9'b100100000 
+	Parameter ADDR_WEIGHT_SRC_4_3_CTRL bound to: 9'b100100100 
+	Parameter ADDR_WEIGHT_SRC_4_4_DATA_0 bound to: 9'b100101000 
+	Parameter ADDR_WEIGHT_SRC_4_4_CTRL bound to: 9'b100101100 
+	Parameter ADDR_WEIGHT_SRC_4_5_DATA_0 bound to: 9'b100110000 
+	Parameter ADDR_WEIGHT_SRC_4_5_CTRL bound to: 9'b100110100 
+	Parameter ADDR_WEIGHT_SRC_5_0_DATA_0 bound to: 9'b100111000 
+	Parameter ADDR_WEIGHT_SRC_5_0_CTRL bound to: 9'b100111100 
+	Parameter ADDR_WEIGHT_SRC_5_1_DATA_0 bound to: 9'b101000000 
+	Parameter ADDR_WEIGHT_SRC_5_1_CTRL bound to: 9'b101000100 
+	Parameter ADDR_WEIGHT_SRC_5_2_DATA_0 bound to: 9'b101001000 
+	Parameter ADDR_WEIGHT_SRC_5_2_CTRL bound to: 9'b101001100 
+	Parameter ADDR_WEIGHT_SRC_5_3_DATA_0 bound to: 9'b101010000 
+	Parameter ADDR_WEIGHT_SRC_5_3_CTRL bound to: 9'b101010100 
+	Parameter ADDR_WEIGHT_SRC_5_4_DATA_0 bound to: 9'b101011000 
+	Parameter ADDR_WEIGHT_SRC_5_4_CTRL bound to: 9'b101011100 
+	Parameter ADDR_WEIGHT_SRC_5_5_DATA_0 bound to: 9'b101100000 
+	Parameter ADDR_WEIGHT_SRC_5_5_CTRL bound to: 9'b101100100 
+	Parameter ADDR_BIAS_DATA_0 bound to: 9'b101101000 
+	Parameter ADDR_BIAS_CTRL bound to: 9'b101101100 
+	Parameter ADDR_FEATURE_DST_0_DATA_0 bound to: 9'b101110000 
+	Parameter ADDR_FEATURE_DST_0_CTRL bound to: 9'b101110100 
+	Parameter ADDR_FEATURE_DST_1_DATA_0 bound to: 9'b101111000 
+	Parameter ADDR_FEATURE_DST_1_CTRL bound to: 9'b101111100 
+	Parameter ADDR_FEATURE_DST_2_DATA_0 bound to: 9'b110000000 
+	Parameter ADDR_FEATURE_DST_2_CTRL bound to: 9'b110000100 
+	Parameter ADDR_FEATURE_DST_3_DATA_0 bound to: 9'b110001000 
+	Parameter ADDR_FEATURE_DST_3_CTRL bound to: 9'b110001100 
+	Parameter ADDR_FEATURE_DST_4_DATA_0 bound to: 9'b110010000 
+	Parameter ADDR_FEATURE_DST_4_CTRL bound to: 9'b110010100 
+	Parameter ADDR_FEATURE_DST_5_DATA_0 bound to: 9'b110011000 
+	Parameter ADDR_FEATURE_DST_5_CTRL bound to: 9'b110011100 
+	Parameter WRIDLE bound to: 2'b00 
+	Parameter WRDATA bound to: 2'b01 
+	Parameter WRRESP bound to: 2'b10 
+	Parameter WRRESET bound to: 2'b11 
+	Parameter RDIDLE bound to: 2'b00 
+	Parameter RDDATA bound to: 2'b01 
+	Parameter RDRESET bound to: 2'b10 
+	Parameter ADDR_BITS bound to: 9 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_AXILiteS_s_axi.v:537]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_AXILiteS_s_axi' (1#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_AXILiteS_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:10]
+	Parameter CONSERVATIVE bound to: 0 - type: integer 
+	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
+	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_READ_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter MAX_WRITE_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 0 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_throttl' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:709]
+	Parameter USED_FIX bound to: 0 - type: integer 
+	Parameter FIX_VALUE bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter DEPTH bound to: 16 - type: integer 
+	Parameter USER_MAXREQS bound to: 16 - type: integer 
+	Parameter CONSERVATIVE bound to: 0 - type: integer 
+	Parameter AVERAGE_MODE bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_throttl' (2#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:709]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_write' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:1702]
+	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_WRITE_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 0 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+	Parameter USER_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter USER_DATA_BYTES bound to: 4 - type: integer 
+	Parameter USER_ADDR_ALIGN bound to: 2 - type: integer 
+	Parameter BUS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter BUS_DATA_BYTES bound to: 4 - type: integer 
+	Parameter BUS_ADDR_ALIGN bound to: 2 - type: integer 
+	Parameter NUM_WRITE_WIDTH bound to: 4 - type: integer 
+	Parameter TARGET_ADDR bound to: 0 - type: integer 
+	Parameter BOUNDARY_BEATS bound to: 10'b1111111111 
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_fifo' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+	Parameter DATA_BITS bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_fifo' (3#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_reg_slice' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:315]
+	Parameter N bound to: 64 - type: integer 
+	Parameter ZERO bound to: 2'b10 
+	Parameter ONE bound to: 2'b11 
+	Parameter TWO bound to: 2'b01 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_reg_slice' (4#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:315]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_fifo__parameterized0' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_fifo__parameterized0' (4#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_buffer' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:528]
+	Parameter MEM_STYLE bound to: block - type: string 
+	Parameter DATA_WIDTH bound to: 36 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_buffer' (5#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:528]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_fifo__parameterized1' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+	Parameter DATA_BITS bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 15 - type: integer 
+	Parameter DEPTH_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_fifo__parameterized1' (5#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_fifo__parameterized2' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+	Parameter DATA_BITS bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_fifo__parameterized2' (5#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:419]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:2069]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_write' (6#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:1702]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_read' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:905]
+	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_READ_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 0 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+	Parameter USER_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter USER_DATA_BYTES bound to: 4 - type: integer 
+	Parameter USER_ADDR_ALIGN bound to: 2 - type: integer 
+	Parameter BUS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter BUS_DATA_BYTES bound to: 4 - type: integer 
+	Parameter BUS_ADDR_ALIGN bound to: 2 - type: integer 
+	Parameter NUM_READ_WIDTH bound to: 4 - type: integer 
+	Parameter TARGET_ADDR bound to: 0 - type: integer 
+	Parameter BOUNDARY_BEATS bound to: 10'b1111111111 
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_buffer__parameterized0' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:528]
+	Parameter MEM_STYLE bound to: block - type: string 
+	Parameter DATA_WIDTH bound to: 35 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_buffer__parameterized0' (6#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:528]
+INFO: [Synth 8-6157] synthesizing module 'conv2_gmem_m_axi_reg_slice__parameterized0' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:315]
+	Parameter N bound to: 34 - type: integer 
+	Parameter ZERO bound to: 2'b10 
+	Parameter ONE bound to: 2'b11 
+	Parameter TWO bound to: 2'b01 
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_reg_slice__parameterized0' (6#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:315]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:1253]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi_read' (7#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:905]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_gmem_m_axi' (8#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:10]
+INFO: [Synth 8-6157] synthesizing module 'conv2_W_0_0' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_0.v:43]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 9 - type: integer 
+	Parameter AddressWidth bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'conv2_W_0_0_ram' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_0.v:9]
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 4 - type: integer 
+	Parameter MEM_SIZE bound to: 9 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_0.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_W_0_0_ram' (9#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_0.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_W_0_0' (10#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_0.v:43]
+INFO: [Synth 8-6157] synthesizing module 'conv2_W_0_1' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_1.v:42]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 9 - type: integer 
+	Parameter AddressWidth bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'conv2_W_0_1_rom' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_1.v:9]
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 4 - type: integer 
+	Parameter MEM_SIZE bound to: 9 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_1.v:21]
+INFO: [Synth 8-3876] $readmem data file './conv2_W_0_1_rom.dat' is read successfully [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_1.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_W_0_1_rom' (11#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_W_0_1' (12#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_W_0_1.v:42]
+INFO: [Synth 8-6157] synthesizing module 'conv2_fadd_32ns_3bkb' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_fadd_32ns_3bkb.v:11]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'conv2_ap_fadd_2_full_dsp_32' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/ip/conv2_ap_fadd_2_full_dsp_32.vhd:72]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 1 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 2 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 2 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_7' declared at 'd:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/c63e/hdl/floating_point_v7_1_vh_rfs.vhd:91615' bound to instance 'U0' of component 'floating_point_v7_1_7' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/ip/conv2_ap_fadd_2_full_dsp_32.vhd:203]
+INFO: [Synth 8-256] done synthesizing module 'conv2_ap_fadd_2_full_dsp_32' (30#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/ip/conv2_ap_fadd_2_full_dsp_32.vhd:72]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_fadd_32ns_3bkb' (31#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_fadd_32ns_3bkb.v:11]
+INFO: [Synth 8-6157] synthesizing module 'conv2_fmul_32ns_3cud' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_fmul_32ns_3cud.v:11]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 3 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'conv2_ap_fmul_1_max_dsp_32' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/ip/conv2_ap_fmul_1_max_dsp_32.vhd:72]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 1 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 3 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_7' declared at 'd:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/c63e/hdl/floating_point_v7_1_vh_rfs.vhd:91615' bound to instance 'U0' of component 'floating_point_v7_1_7' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/ip/conv2_ap_fmul_1_max_dsp_32.vhd:203]
+INFO: [Synth 8-256] done synthesizing module 'conv2_ap_fmul_1_max_dsp_32' (39#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/ip/conv2_ap_fmul_1_max_dsp_32.vhd:72]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_fmul_32ns_3cud' (40#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_fmul_32ns_3cud.v:11]
+INFO: [Synth 8-6157] synthesizing module 'conv2_mac_muladd_dEe' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_mac_muladd_dEe.v:33]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 7 - type: integer 
+	Parameter din1_WIDTH bound to: 8 - type: integer 
+	Parameter din2_WIDTH bound to: 7 - type: integer 
+	Parameter dout_WIDTH bound to: 14 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'conv2_mac_muladd_dEe_DSP48_0' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_mac_muladd_dEe.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_mac_muladd_dEe_DSP48_0' (41#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_mac_muladd_dEe.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'conv2_mac_muladd_dEe' (42#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_mac_muladd_dEe.v:33]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:4618]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:4622]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5640]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5642]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5724]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5728]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5738]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5740]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5748]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5760]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5772]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5774]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5776]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5780]
+INFO: [Synth 8-6155] done synthesizing module 'conv2' (43#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'system_conv2_0_0' (44#1) [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ip/system_conv2_0_0/synth/system_conv2_0_0.v:59]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DIVIDE_BY_ZERO_IN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized70 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized70 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized70 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized70 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized70 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized68 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized68 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized68 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized68 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized68 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized13 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized13 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized13 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized13 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized13 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized11 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized11 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized11 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized11 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized11 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port SINIT
+WARNING: [Synth 8-3331] design dsp48e1_wrapper__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design flt_round_dsp_opt_full has unconnected port SIGN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized62 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized62 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized62 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized62 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized62 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized66 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized66 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized66 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized66 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized66 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized51 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized51 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized51 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized51 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized51 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized64 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized64 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized64 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized64 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized64 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized45 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized45 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized45 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized45 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized45 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized53 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized53 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized53 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized53 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized53 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized1 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design special_detect__parameterized0 has unconnected port A[31]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized57 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized57 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized57 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized57 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized57 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized15 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized15 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized15 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized15 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized15 has unconnected port SINIT
+WARNING: [Synth 8-3331] design dsp48e1_wrapper__parameterized2 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized60 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized60 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized60 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized60 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized60 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SINIT
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 573.707 ; gain = 274.625
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 573.707 ; gain = 274.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 573.707 ; gain = 274.625
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 354 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ip/system_conv2_0_0/constraints/conv2_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ip/system_conv2_0_0/constraints/conv2_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/xilinx_projects/16_ov5640_single/ov5640_single.runs/system_conv2_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/xilinx_projects/16_ov5640_single/ov5640_single.runs/system_conv2_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 912.293 ; gain = 0.141
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  FDE => FDRE: 33 instances
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 919.199 ; gain = 0.141
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.463 . Memory (MB): peak = 920.609 ; gain = 8.316
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 920.609 ; gain = 621.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 920.609 ; gain = 621.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  D:/xilinx_projects/16_ov5640_single/ov5640_single.runs/system_conv2_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 920.609 ; gain = 621.527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'conv2_AXILiteS_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'conv2_AXILiteS_s_axi'
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2_gmem_m_axi_reg_slice'
+INFO: [Synth 8-5544] ROM "next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:611]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:507]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2_gmem_m_axi.v:611]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'conv2_gmem_m_axi_reg_slice__parameterized0'
+INFO: [Synth 8-5544] ROM "next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "ram". This will be implemented in logic
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'tmp_1_cast_reg_2379_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5672]
+INFO: [Synth 8-4471] merging register 'tmp_2_cast_reg_2384_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5668]
+INFO: [Synth 8-4471] merging register 'tmp_4_cast_reg_2389_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5664]
+INFO: [Synth 8-4471] merging register 'tmp_5_cast_reg_2394_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5660]
+INFO: [Synth 8-4471] merging register 'tmp_6_cast_reg_2399_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5656]
+INFO: [Synth 8-4471] merging register 'tmp_57_cast_reg_2404_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5700]
+INFO: [Synth 8-4471] merging register 'tmp_58_cast_reg_2409_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5696]
+INFO: [Synth 8-4471] merging register 'tmp_59_cast_reg_2414_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5690]
+INFO: [Synth 8-4471] merging register 'tmp_60_cast_reg_2419_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5686]
+INFO: [Synth 8-4471] merging register 'tmp_61_cast_reg_2424_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5682]
+INFO: [Synth 8-4471] merging register 'tmp_62_cast_reg_2429_reg[30:30]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5678]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5864]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter1_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5865]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter2_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5866]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter3_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5660]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter4_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5868]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter5_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5869]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter6_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5664]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter7_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5871]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter8_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5872]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter9_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5873]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter10_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5668]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter11_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5875]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter12_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5876]
+INFO: [Synth 8-4471] merging register 'tmp_81_cast_reg_2745_pp1_iter13_reg_reg[30:14]' into 'tmp_80_cast_reg_2645_reg[30:14]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5672]
+INFO: [Synth 8-4471] merging register 'gmem_addr_12_reg_2764_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5878]
+INFO: [Synth 8-4471] merging register 'gmem_addr_12_reg_2764_pp1_iter1_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5879]
+INFO: [Synth 8-4471] merging register 'gmem_addr_12_reg_2764_pp1_iter2_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5880]
+INFO: [Synth 8-4471] merging register 'gmem_addr_13_reg_3278_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5881]
+INFO: [Synth 8-4471] merging register 'gmem_addr_13_reg_3278_pp1_iter4_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5882]
+INFO: [Synth 8-4471] merging register 'gmem_addr_13_reg_3278_pp1_iter5_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5883]
+INFO: [Synth 8-4471] merging register 'gmem_addr_14_reg_3295_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5884]
+INFO: [Synth 8-4471] merging register 'gmem_addr_14_reg_3295_pp1_iter8_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5885]
+INFO: [Synth 8-4471] merging register 'gmem_addr_14_reg_3295_pp1_iter9_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5886]
+INFO: [Synth 8-4471] merging register 'gmem_addr_15_reg_3312_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5887]
+INFO: [Synth 8-4471] merging register 'gmem_addr_15_reg_3312_pp1_iter11_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5888]
+INFO: [Synth 8-4471] merging register 'gmem_addr_15_reg_3312_pp1_iter12_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5889]
+INFO: [Synth 8-4471] merging register 'gmem_addr_16_reg_3334_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5890]
+INFO: [Synth 8-4471] merging register 'gmem_addr_16_reg_3334_pp1_iter15_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5891]
+INFO: [Synth 8-4471] merging register 'gmem_addr_16_reg_3334_pp1_iter16_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5892]
+INFO: [Synth 8-4471] merging register 'gmem_addr_17_reg_3346_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5893]
+INFO: [Synth 8-4471] merging register 'gmem_addr_17_reg_3346_pp1_iter18_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5894]
+INFO: [Synth 8-4471] merging register 'gmem_addr_17_reg_3346_pp1_iter19_reg_reg[31:31]' into 'tmp_cast_reg_2374_reg[30:30]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:5895]
+WARNING: [Synth 8-3936] Found unconnected internal register 'W_0_0_load_mid2_reg_2545_reg' and it is trimmed from '64' to '4' bits. [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2621]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_17_reg_2453_reg' and it is trimmed from '6' to '4' bits. [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2744]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "exitcond4_fu_1734_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exitcond_flatten2_fu_1800_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten_fu_1818_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten1_fu_1874_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "exitcond4_fu_1734_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exitcond_flatten2_fu_1800_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten_fu_1818_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten1_fu_1874_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "gmem_ARLEN" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tmp_13_mid_fu_1848_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'conv2_AXILiteS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'conv2_AXILiteS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2_gmem_m_axi_reg_slice'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'conv2_gmem_m_axi_reg_slice__parameterized0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 920.609 ; gain = 621.527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_0_2_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_0_3_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_1_0_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_1_1_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_1_2_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_1_3_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_2_0_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_2_1_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_2_2_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_2_3_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_3_0_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_4_0_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_1_U' (conv2_W_0_1) to 'inst/W_5_0_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_0_5_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_1_4_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_1_5_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_2_4_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_2_5_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_3_1_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_3_2_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_3_3_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_3_4_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_3_5_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_4_1_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_4_2_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_4_3_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_4_4_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_4_5_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_5_1_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_5_2_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_5_3_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_5_4_U'
+INFO: [Synth 8-223] decloning instance 'inst/W_0_4_U' (conv2_W_0_1) to 'inst/W_5_5_U'
+INFO: [Synth 8-223] decloning instance 'conv2_fadd_32ns_3bkb:/conv2_ap_fadd_2_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'conv2_fadd_32ns_3bkb:/conv2_ap_fadd_2_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'conv2_fadd_32ns_3bkb:/conv2_ap_fadd_2_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'conv2_fadd_32ns_3bkb:/conv2_ap_fadd_2_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'conv2_fadd_32ns_3bkb:/conv2_ap_fadd_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY' (delay__parameterized0) to 'conv2_fadd_32ns_3bkb:/conv2_ap_fadd_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY'
+INFO: [Synth 8-223] decloning instance 'conv2_fmul_32ns_3cud:/conv2_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'conv2_fmul_32ns_3cud:/conv2_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'conv2_fmul_32ns_3cud:/conv2_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'conv2_fmul_32ns_3cud:/conv2_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |conv2__GB0    |           1|     41436|
+|2     |conv2__GB1    |           1|     15148|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'W_0_1_load_reg_2664_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2636]
+INFO: [Synth 8-4471] merging register 'W_0_2_load_reg_2669_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2637]
+INFO: [Synth 8-4471] merging register 'W_0_3_load_reg_2674_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2638]
+INFO: [Synth 8-4471] merging register 'W_0_5_load_reg_3009_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2658]
+INFO: [Synth 8-4471] merging register 'W_3_1_load_reg_3034_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2663]
+INFO: [Synth 8-4471] merging register 'W_3_4_load_reg_3049_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2666]
+INFO: [Synth 8-4471] merging register 'W_4_2_load_reg_3064_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2669]
+INFO: [Synth 8-4471] merging register 'W_4_5_load_reg_3079_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2672]
+INFO: [Synth 8-4471] merging register 'W_5_3_load_reg_3094_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2675]
+INFO: [Synth 8-4471] merging register 'W_1_0_load_reg_2679_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2639]
+INFO: [Synth 8-4471] merging register 'W_4_0_load_reg_2724_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2648]
+INFO: [Synth 8-4471] merging register 'W_1_1_load_reg_2684_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2640]
+INFO: [Synth 8-4471] merging register 'W_1_2_load_reg_2689_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2641]
+INFO: [Synth 8-4471] merging register 'W_1_3_load_reg_2694_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2642]
+INFO: [Synth 8-4471] merging register 'W_1_4_load_reg_3014_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2659]
+INFO: [Synth 8-4471] merging register 'W_1_5_load_reg_3019_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2660]
+INFO: [Synth 8-4471] merging register 'W_3_2_load_reg_3039_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2664]
+INFO: [Synth 8-4471] merging register 'W_3_5_load_reg_3054_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2667]
+INFO: [Synth 8-4471] merging register 'W_4_3_load_reg_3069_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2670]
+INFO: [Synth 8-4471] merging register 'W_5_1_load_reg_3084_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2673]
+INFO: [Synth 8-4471] merging register 'W_5_4_load_reg_3099_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2676]
+INFO: [Synth 8-4471] merging register 'W_2_0_load_reg_2699_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2643]
+INFO: [Synth 8-4471] merging register 'W_5_0_load_reg_2729_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2649]
+INFO: [Synth 8-4471] merging register 'W_2_1_load_reg_2704_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2644]
+INFO: [Synth 8-4471] merging register 'W_2_2_load_reg_2709_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2645]
+INFO: [Synth 8-4471] merging register 'W_2_3_load_reg_2714_reg[31:0]' into 'W_3_0_load_reg_2719_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2646]
+INFO: [Synth 8-4471] merging register 'W_2_4_load_reg_3024_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2661]
+INFO: [Synth 8-4471] merging register 'W_2_5_load_reg_3029_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2662]
+INFO: [Synth 8-4471] merging register 'W_3_3_load_reg_3044_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2665]
+INFO: [Synth 8-4471] merging register 'W_4_1_load_reg_3059_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2668]
+INFO: [Synth 8-4471] merging register 'W_4_4_load_reg_3074_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2671]
+INFO: [Synth 8-4471] merging register 'W_5_2_load_reg_3089_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2674]
+INFO: [Synth 8-4471] merging register 'W_5_5_load_reg_3104_reg[31:0]' into 'W_0_4_load_reg_3004_reg[31:0]' [d:/xilinx_projects/16_ov5640_single/ov5640_single.srcs/sources_1/bd/system/ipshared/eadd/hdl/verilog/conv2.v:2677]
+INFO: [Synth 8-5544] ROM "exitcond4_fu_1734_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exitcond_flatten1_fu_1874_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten_fu_1818_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten2_fu_1800_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[31]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[31]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[31]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[31]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[29]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[29]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[30]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[30]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[28]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[28]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[27]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[27]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[26]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[26]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[25]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[25]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[24]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[24]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[23]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[23]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[5]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[5]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[0]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[0]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[1]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[1]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[2]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[2]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[3]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[3]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[4]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[4]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[11]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[11]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[6]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[6]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[7]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[7]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[8]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[8]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[9]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[9]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[10]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[10]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[17]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[17]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[12]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[12]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[13]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[13]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[14]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[14]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[15]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[15]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[16]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[16]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[18]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[18]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[19]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[19]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[20]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[20]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[21]' (FDE) to 'inst/i_0/W_0_4_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[21]' (FDE) to 'inst/i_0/W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/\W_0_4_U/conv2_W_0_1_rom_U/q0_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/\W_0_1_U/conv2_W_0_1_rom_U/q0_reg[22] )
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[29]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[29]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[30]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[30]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[28]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[28]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[27]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[27]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[26]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[26]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[25]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[25]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[24]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[24]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[23]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[23]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[5]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[5]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[0]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[0]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[1]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[1]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[2]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[2]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[3]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[3]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[4]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[4]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[11]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[11]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[6]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[6]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[7]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[7]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_0_4_load_reg_3004_reg[8]' (FDE) to 'inst/i_0/W_0_4_load_reg_3004_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/i_0/W_3_0_load_reg_2719_reg[8]' (FDE) to 'inst/i_0/W_3_0_load_reg_2719_reg[22]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_read/rs_rreq/data_p2_reg[63] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/rs_wreq/data_p2_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/rs_wreq/data_p2_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_read/start_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/start_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_read/could_multi_bursts.arlen_buf_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_read/could_multi_bursts.araddr_buf_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/could_multi_bursts.awlen_buf_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/could_multi_bursts.awlen_buf_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/could_multi_bursts.awaddr_buf_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/\W_0_4_load_reg_3004_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/\W_3_0_load_reg_2719_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_read/rs_rreq/data_p1_reg[63] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_fmul_32ns_3cud_U6/\din1_buf1_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_fmul_32ns_3cud_U5/\din1_buf1_reg[22] )
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_7_viv__1.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_7_viv__1.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_7_viv__2.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_7_viv__2.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_7_viv.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_7_viv.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/conv2_AXILiteS_s_axi_U/\int_ap_return_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_80_cast_reg_2645_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_1/\tmp_cast_reg_2374_reg[30] )
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_wstate_reg[0]) is unused and will be removed from module conv2_AXILiteS_s_axi.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_rstate_reg[0]) is unused and will be removed from module conv2_AXILiteS_s_axi.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_read/fifo_rreq/q_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/fifo_wreq/q_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_0/conv2_gmem_m_axi_U/\bus_write/bus_equal_gen.fifo_burst/q_reg[5] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:01:36 . Memory (MB): peak = 920.609 ; gain = 621.527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/i_0/conv2_gmem_m_axi_U/i_2/bus_write/buff_wdata/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_0/conv2_gmem_m_axi_U/i_6/bus_read/buff_rdata/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |conv2__GB0    |           1|     25765|
+|2     |conv2__GB1    |           1|     12356|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:45 ; elapsed = 00:01:58 . Memory (MB): peak = 982.688 ; gain = 683.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:54 ; elapsed = 00:02:08 . Memory (MB): peak = 1039.555 ; gain = 740.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |conv2__GB0    |           1|     25765|
+|2     |conv2__GB1    |           1|     12356|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U6/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/conv2_ap_fmul_1_max_dsp_32_u/U0 /i_synth/\MULT.OP/OP/RESULT_REG.NORMAL.mant_op_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\conv2_fmul_32ns_3cud_U5/dout_r_reg[21] )
+INFO: [Synth 8-6837] The timing for the instance inst/conv2_gmem_m_axi_U/bus_write/buff_wdata/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/conv2_gmem_m_axi_U/bus_read/buff_rdata/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:11 ; elapsed = 00:02:26 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:14 ; elapsed = 00:02:29 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:14 ; elapsed = 00:02:29 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:16 ; elapsed = 00:02:31 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:16 ; elapsed = 00:02:31 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:16 ; elapsed = 00:02:32 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:17 ; elapsed = 00:02:32 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |   172|
+|2     |DSP48E1   |     3|
+|3     |DSP48E1_1 |     3|
+|4     |DSP48E1_2 |     3|
+|5     |DSP48E1_3 |     3|
+|6     |DSP48E1_4 |     3|
+|7     |DSP48E1_5 |     1|
+|8     |DSP48E1_6 |     1|
+|9     |LUT1      |    37|
+|10    |LUT2      |   436|
+|11    |LUT3      |  2255|
+|12    |LUT4      |   475|
+|13    |LUT5      |   742|
+|14    |LUT6      |  2027|
+|15    |MUXCY     |   204|
+|16    |MUXF7     |   189|
+|17    |MUXF8     |     4|
+|18    |RAM16X1S  |    32|
+|19    |RAMB18E1  |     2|
+|20    |SRL16E    |   585|
+|21    |SRLC32E   |    21|
+|22    |XORCY     |    75|
+|23    |FDE       |    33|
+|24    |FDRE      |  7553|
+|25    |FDSE      |     6|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:17 ; elapsed = 00:02:32 . Memory (MB): peak = 1134.898 ; gain = 835.816
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:39 ; elapsed = 00:02:15 . Memory (MB): peak = 1134.898 ; gain = 488.914
+Synthesis Optimization Complete : Time (s): cpu = 00:02:17 ; elapsed = 00:02:32 . Memory (MB): peak = 1134.898 ; gain = 835.816
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 728 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1134.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 121 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 56 instances
+  FDE => FDRE: 33 instances
+  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+491 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:23 ; elapsed = 00:02:39 . Memory (MB): peak = 1134.898 ; gain = 844.613
+INFO: [Coretcl 2-1174] Renamed 284 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1134.898 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/xilinx_projects/16_ov5640_single/ov5640_single.runs/system_conv2_0_0_synth_1/system_conv2_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_conv2_0_0_utilization_synth.rpt -pb system_conv2_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  4 10:56:19 2019...
